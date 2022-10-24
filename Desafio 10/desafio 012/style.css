@@ -2,14 +2,46 @@
     margin: 0px;
     padding: 0px;
 }
-html, body { min: height 100vh; 
+ html, body { min: height 100vh; 
     background-color: darkgrey;
 }
-header {
+header h1, .somente {
     background-color: black;
     color: white;
     text-align: center;
-}
-headerh1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-variant: small-caps;
     
+}
+a {
+    color: blue;
+    font-weight: bolder;
+    text-decoration: none;
+    
+}
+footer {
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+ .normal {
+    background-color: white;
+    color: black;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+.imagem {
+    background-color: purple;
+    color: beige;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    width: 400px;
+    padding-left: 30px;
 }
