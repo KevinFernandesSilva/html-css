@@ -12,6 +12,7 @@ header h1, .somente {
     padding-top: 50px;
     padding-bottom: 50px;
     font-variant: small-caps;
+    font-size: 2em;
     
 }
 a {
@@ -45,3 +46,7 @@ footer {
     width: 400px;
     padding-left: 30px;
 }
+:root {
+    font-family: 'Passion One', cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Roboto:wght@100&family=Silkscreen&display=swap');
