@@ -4,6 +4,7 @@
 }
  html, body { min: height 100vh; 
     background-color: darkgrey;
+    
 }
 header h1, .somente {
     background-color: black;
@@ -36,17 +37,40 @@ footer {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+   
 }
 .imagem {
-    background-color: purple;
-    color: beige;
+    
+    color: rgb(74, 147, 54);
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     width: 400px;
     padding-left: 30px;
+    display: inline-block;
+    padding: 5px;
+    display: inline-block;
+    
+    
+    
 }
 :root {
     font-family: 'Passion One', cursive;
 }
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Roboto:wght@100&family=Silkscreen&display=swap');
+section > p {
+    padding-bottom: 2em;
+}
+section#img01 { 
+    background-image: url(imagens/background001.jpg);
+    background-position: right center ;
+    background-size: cover;
+    background-position-x: right;
+    
+}
+section#img02 {
+    background-image: url(imagens/background002.jpg);
+    
+    color:black;
+    background-attachment: fixed;
+}
